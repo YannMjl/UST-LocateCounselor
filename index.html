@@ -41,8 +41,29 @@
                 </div>
 
                 <div class="right">
-                    <select name="empType" id="empType" class="select-selected">
+                    <select name="empType" id="userType" class="select-selected">
                         <option selected selected disabled hidden>Select one...</option>
+                        <option value="High School Student">High School Student</option>
+                        <option value="US Veteran">US Veteran</option>
+                        <option value="Transfer Student">Transfer Student</option>
+                        <option value="International Student">International Student</option>
+                        <option value="US citizen living outside of US">US citizen living outside of US</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="row" id="ShowSelectState"> 
+
+                <div class="left">
+                    <p style="color: gray; font-weight: bold; padding-top: 20px;">
+                        What State do you live in?
+                    </p>
+                </div>
+
+                <div class="right">
+                    <select name="empType" id="selectState" class="select-selected">
+                        <option selected selected disabled hidden>Select your State</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
@@ -51,23 +72,24 @@
                 
             </div>
 
-            <div class="row"> 
+            <div class="row" id="transferFrom">
 
                 <div class="left">
                     <p style="color: gray; font-weight: bold; padding-top: 20px;">
-                        State:
+                        Where are you transfering from?
                     </p>
                 </div>
 
                 <div class="right">
-                    <select name="empType" id="empType" class="select-selected">
-                        <option selected selected disabled hidden>Select your State</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                    <select name="empType" id="selectState" class="select-selected">
+                        <option selected selected disabled hidden>Select...</option>
+                        <option value="private University">Four year private college or University</option>
+                        <option value="public University">Four year public college or University</option>
+                        <option value="Two year University">Two year college or University</option>
+                        <option value="International University">International college or University</option>
                     </select>
                 </div>
-                
+
             </div>
 
         </div>

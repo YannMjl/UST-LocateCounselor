@@ -46,3 +46,8 @@ body {
     margin-top: 0px;
     padding: 15px 0px;
 }
+
+#ShowSelectState,
+#transferFrom {
+    display: none;
+}
