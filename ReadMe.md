@@ -1,7 +1,8 @@
 # Description
 
 "Admissions is getting their locate their counselor tool together which is feeding directly from Salesforce.  
-Thad suggested I connect with you about potentially have Yann get this into Cascade and set up appropriately there.  
+Thad suggested I connect with you about potentially have Yann get this into Cascade and set up appropriately there. 
+
 Currently, this page is pulling from Salesforce Production - https://static.stthomas.edu/undergraduate-admissions/events/locateCounselor.html 
 
 It is also at the bottom of the webpage here - https://www.stthomas.edu/admissions/undergraduate/index.html -
